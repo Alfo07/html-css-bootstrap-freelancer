@@ -12,11 +12,29 @@
 <body>
 
     <!-- Header -->
-    <header class="ms-bg-blue">
+    <header id="header-nav" class="ms-bg-blue">
         <!-- Nav -->
-        <nav class="container-fluid">
-
-        </nav>
+        <nav class="navbar navbar-expand-md navbar-dark h-100">
+            <div class="container-fluid">
+                <a class="navbar-brand text-uppercase fs-4 fw-bold" href="#">start-bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-uppercase">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
         <!-- /Nav -->
     </header>
     <!-- /Header -->
@@ -169,9 +187,47 @@
     <!-- Footer -->
     <footer>
         <!-- Contact -->
-        <section>
-
+        <!-- Footer chiaro -->
+        <section id="contact" class="ms-bg-lightblue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-5">
+                        <h2 class="text-uppercase">Location</h2>
+                        <p>2215 John Daniel Drive Clark, MO 54243</p>
+                    </div>
+                    <div class="col-12 col-md-4 mb-5">
+                        <h2 class="text-uppercase mb-3">Around the web</h2>
+                        <div class="brand-icon">
+                            <button type="button" class="btn btn-outline-light p-3"><i class="fa-brands fa-facebook-f fs-3"></i></button>
+                        </div>
+                        <div class="brand-icon">
+                            <button type="button" class="btn btn-outline-light p-3"><i class="fa-brands fa-google-plus-g fs-3"></i></button>
+                        </div>
+                        <div class="brand-icon">
+                            <button type="button" class="btn btn-outline-light p-3"><i class="fa-brands fa-twitter fs-3"></i></button>
+                        </div>
+                        <div class="brand-icon">
+                            <button type="button" class="btn btn-outline-light p-3"><i class="fa-brands fa-linkedin-in fs-3"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-3">
+                        <h2 class="text-uppercase">About freelancer</h2>
+                        <p>Freelance is a free to use, opern source Bootstrap theme created by <a href="#">Start Bootstrap</a></p>
+                    </div>
+                </div>
+            </div>
         </section>
+        <!-- /Footer chiaro -->
+
+        <!-- Footer scuro -->
+        <section id="contact" class="ms-bg-blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">Copiright &#64; Your Website 2019 </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Footer scuro -->
         <!-- /Contact -->
     </footer>
     <!-- /Footer -->

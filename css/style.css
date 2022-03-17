@@ -1,10 +1,4 @@
 /* General */
-*{
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0;
-}
-
 body{
     color: white;
     text-align: center;
@@ -32,6 +26,7 @@ section{
 
 .ms-container{
     width: 60%;
+    margin: 0 auto;
 }
 
 .fa-star{
@@ -43,6 +38,11 @@ header{
     height: 90px;
 }
 
+.header-nav{
+    background-color: #2c3e50;
+}
+
+/* /Header */
 
 /* Main */
 /* Start */
@@ -131,3 +131,29 @@ i.fa-plus{
     color: white;
 }
 /* /form */
+
+/* Footer */
+#contact h2{
+    font-size: 20px;
+}
+
+#contact p{
+    font-size: 20px;
+}
+
+#contact p a{
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+.brand-icon{
+    display: inline-block;
+}
+
+#contact .btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+/* /Footer */
