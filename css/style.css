@@ -1,5 +1,42 @@
+/* General */
 *{
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
+}
+
+body{
+    color: white;
+    text-align: center;
+}
+
+section{
+    padding: 50px;
+}
+
+.ms-bg-blue{
+    background-color: #2c3e50;
+}
+
+.ms-bg-lightblue{
+    background-color: #3a546d;
+}
+
+.ms-bg-green{
+    background-color: #1abc9c;
+}
+
+/* Header */
+header{
+    height: 90px;
+}
+
+
+/* Main */
+#start img{
+    max-width: 230px;
+}
+
+#portfolio{
+    color: #2c3e50;
 }
