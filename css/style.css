@@ -26,6 +26,10 @@ section{
     background-color: #1abc9c;
 }
 
+.ms-container{
+    width: 60%;
+}
+
 .fa-star{
     font-size: 25px;
 }
@@ -106,3 +110,10 @@ i.fa-plus{
     color: white;
 }
 /* /Portfolio */
+
+/* About */
+.fa-download{
+    margin-right: 5px;
+}
+
+/* /About */
